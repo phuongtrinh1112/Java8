@@ -18,6 +18,7 @@
 
     <modules>
         <module>springboot_restservice</module>
+        <module>udemy_javacore</module>
     </modules>
 
     <properties>
