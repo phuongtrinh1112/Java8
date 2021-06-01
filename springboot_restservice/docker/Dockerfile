@@ -37,3 +37,61 @@ CMD java $JMX_OPTS $JVM_OPTS $JAVA_OPTS -jar /app.jar
 //            e.printStackTrace();
 //        }
 //    }
+
+=====================================================================
+
+{
+    "header": {
+        "message_session_id": "79485943881449476",
+        "message_type": "InboundContentDownload",
+        "version": "1.0",
+        "message_id": "79485943881449476",
+        "timestamp": "2021-04-20T01:02:05.665Z",
+        "unix_timestamp": "1618880525665"
+    },
+    "data": {
+        "inbound-contents": [
+            {
+                "inbound_number": "T6112",
+                "inbound_type": "TOTE",
+                "contents": [
+                    {
+                        "sku": "SKU061",
+                        "quantity": 61,
+                        "metadata": {
+                            "store": "S61",
+                            "destination": "D61"
+                        }
+                    },
+                    {
+                        "sku": "SKU062",
+                        "quantity": 62,
+                        "metadata": {
+                            "store": "S61",
+                            "destination": "D61"
+                        }
+                    }
+                ],
+                "metadata": {
+                    "attributes": "Numberware"
+                }
+            },
+            {
+                "inbound_number": "T6212",
+                "inbound_type": "TOTE",
+                "contents": [
+                    {
+                        "sku": "SKU062",
+                        "quantity": 63,
+                        "metadata": {
+                            "store": "S61"
+                        }
+                    }
+                ],
+                "metadata": {
+                    "attributes": "Numberware"
+                }
+            }                                    
+        ]
+    }
+}
